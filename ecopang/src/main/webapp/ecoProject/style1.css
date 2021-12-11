@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {  margin: 0;min-width: 320px;-webkit-text-size-adjust: 100%;font: 15px/20px 'Nanum Gothic Coding',monospace; -webkit-font-smoothing:antialiased; color: #000; height:100%}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after {content:''; content:none;}
+address {font-style:normal;}
+input, select {vertical-align:middle;}
+ul, ol, dl {list-style-type:none;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal ; font-family:'Nanum Gothic Coding',monospace;}
+li, img {vertical-align:middle;}
+textarea {resize:none;}
+
+
+/* Default */
+label {cursor:pointer; }
+input,textarea{font-family:'Nanum Gothic Coding',monospace;margin:0; vertical-align:middle;overflow:visible; }
+textarea { resize: none;}
+a {text-decoration: none ; color: #000;}
+a:hover{text-decoration:none;}
+html {overflow-y: scroll;-webkit-text-size-adjust:none;overflow-x:hidden;}
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+*:before,*:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+.cf:before,.cf:after {content: " "; /* 1 */display: table; /* 2 */}
+.cf:after {    clear: both;}
+.cf {    *zoom: 1;}
+
+.row:before,  .sc_box:before,.row:after  ,  .sc_box:after {  display: table;  content: " "; 	}
+.row:after , .sc_box:after {  clear: both;}
+
+
+.site-content:before,
+.site-content:after {content: " "; /* 1 */display: table; /* 2 */}
+.site-content:after {clear: both;}
+
+/* header */
+
+.header-wrap{width: 1020px;margin: 0px auto 0;position: relative; background-color:white;}
+.site-branding{align-items: center;padding: 30px;display: flex;}
+
+.instagram a{ position: relative;display: block;}
+.site-title{display:block;text-align:center;font-family:'poor story';font-size:110px;margin: 0 auto;}
+.site-title a:hover{color:#000;}
+
+/* 회원버튼 */
+.userBtn {width: 100px;height: 50px;background-color: #ddd;border-radius: 25px;display: flex;}
+.userBtn .userImg img {width: 40px;height: 40px;border-radius: 50%;margin-top:5px;margin-left: 5px;}
+.userBtn .btnImg{width: 40px;height: 30px;margin-top: 13px;margin-left: 10px;}
+.userBtn .btnImg .btnLine {width:30px;height:2px;margin-bottom: 8px;border-radius: 1px;background-color: #888;}
+.userBtn:hover, .userBtn:focus {background-color: #ccc;}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {position: relative;display: block;float:right;}
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+/* Links inside the dropdown */
+.dropdownContent a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+/* Change color of dropdown links on hover */
+.dropdownContent a:hover {background-color: #f1f1f1}
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/* 헤더 끝 */
+
+/* nav bar */
+.nav{width:100%;height:55px;background-color:rgb(208, 245, 148);justify-content: center;word-spacing: 90px; }
+.menubar li{display: inline-block;font-family: 'Nanum Gothic Coding',monospace;font-weight:bold;}
+
+.menubar li a{display:block;color: #000;font-size:20px;padding: 16px 14px;}
+.menubar .active {color:gray;}
+.menubar li a:hover:not(.active) {color: gray;}
+/* nav bar 끝 */
+
+/* 컨텐츠 */
+.site-content {width: 1020px;margin:0 auto; font-family: 'Nanum Gothic Coding',monospace;}
+.content-area {float: none;width: 100%;  margin-bottom: 20px;}
+.content-area.full-width { float:none; width:100%}
+.content-area.full {float: none;width: 100%;}
+.site-main{padding-top: 20px;}
+.site-main h4{font-weight:bold; padding-bottom: 8px;} 
+
+/* 이벤트 */
+.main_content {width: 100%;margin: 0 auto;height:33%;}
+.main_content .event_imgs {width:100%;margin: 0 auto; padding:0;}
+.main_content .event_btns {width:600px;margin:auto;vertical-align: middle;}
+.event_btns .event_btn {text-align: center;margin:10px auto;}
+.btn-success {color: #000;background-color:white;border-color:white;}
+.event_btns .event_btn img{width:10px;height:10px;}
+.event_btns .event_btn a:hover {color: blue;}
+
+/* 인기 소모임 */
+.group {width:100%;margin: auto;height:33%;}
+.group_list {width:100%;height:200px;background-color:#f3f3f3;}
+.group_item {float:left;width:180px;margin:5px;text-align:center;}
+
+/* 인기 게시글 */
+.community {width:100%;margin:0 auto;height:33%;padding-top:40px;padding-bottom: 20px;}
+.community_list {width:100%;height:250px;background-color:#f3f3f3;}
+.community .community_list .line {width: 30%;margin : 6px;display: inline-block;}
+
+/* 푸터 */
+.footer_content{border-top: solid rgb(208, 245, 148);padding: 30px 0;overflow: hidden;font-size: 13px;line-height: 1.5;    background-color: silver;}
+.inner{width: 1020px;margin: 0 auto;}
+
+
+ /* 반응형 */
+/* .pull-right {
+  float: right ;
+}
+.pull-left {
+  float: left;
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;}
+	.pull-right {  float: none !important; width:100%;text-align:center;}
+	.pull-left {  float: none !important; width:100%;text-align:center;}
+ }		 */
+  
+  
+/* 커뮤니티 */
+.topic_content_area{float: none;width: 100%; padding: 20px; height: 700px;} 
+.topic_top{display:inline-block;}
+.two_select {text-align-last: center; display: flex; }
+.two_select select{ width:130px; height:25px;}
+.write{ float:right;}
+.write button{   width: 80px;height: 35px; border-radius: 8px; background-color: rgb(52, 152, 219);color:#fff; border: none;font-size: 15px;}
+.wrtie button:hover {background-color: rgb(42, 142, 209); }   
+.table_content{padding:20px; }
+.table_content table{ width:100%; border: thin solid lightgray;}
+.table_top{text-align: center;  border-bottom: thin solid lightgray; background-color: #eaeaea;}
+.table_top td {border-left: solid thin lightgray;}
+.table_middle {text-align: center;}
+.table_middle td{border-left: solid thin lightgray;}
+.table_middle td a{display:block; text-align:center;}
+.count{    text-align: center;}
+.bottom{width:100%;    text-align: -webkit-center;}
+.bottom select{width: 130px;height: 25px;text-align-last: center;}
+.bottom .text{width:350px;}	
+.bottom .search{width: 80px;height: 35px; border-radius: 8px; background-color: rgb(52, 152, 219);color:#fff; border: none;font-size: 15px;}
+.bottom .search:hover {background-color: rgb(42, 142, 209); }   
+
+

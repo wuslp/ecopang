@@ -1,0 +1,210 @@
+
+body {
+	background-color: #888;
+}
+
+.signupInput {
+    margin: auto;
+    margin-top:100px;
+    width: 500px;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.signupTitle {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.table3 {
+    width:400px;
+    margin: auto;
+    text-align: left;
+}
+.table3 .text {
+    width:200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.table3 label {
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    background-color: rgb(52, 152, 219);
+    color: #fff;
+    cursor: pointer;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.table3 label:hover {
+    background-color: rgb(42, 142, 209);    
+}
+.table3 .file {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    clip: rect(0,0,0,0);
+    overflow: hidden;
+    padding: 0;
+
+}
+.table3 .date {
+    height: 25px;
+}
+.table3 .location {
+    height: 25px;
+    width: 130px;
+}
+.btn {
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(52, 152, 219);
+    color:#fff;
+    border: none;
+    font-size: 15px;
+}
+.btn:hover {
+    background-color: rgb(42, 142, 209);    
+}
+
+.btn2 {
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(52, 152, 219);
+    color:#fff;
+    border: none;
+    font-size: 15px;
+}
+.btn2:hover {
+    background-color: rgb(42, 142, 209);    
+}
+.loginInput {
+    margin: auto;
+    margin-top:100px;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 15px;
+
+}
+.loginTitle {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.table1 {
+    width:260px;
+    margin: auto;
+}
+.table1 img {
+    margin-top:4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.table1 input {
+    width:200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+td {
+    margin: 0px;
+    padding: 0px;
+
+}
+.table2 {
+    margin-left: 30px;
+    margin: auto;
+}
+.loginBtn {
+    margin: auto;
+    margin-top: 10px;
+}
+.loginBtn input {
+    width: 80px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(52, 152, 219);
+    color:#fff;
+    border: none;
+
+}
+.loginBtn input:hover {
+    background-color: rgb(42, 142, 209);
+}
+
+.reportForm {
+	background-color: #fff;
+	margin: auto;
+	margin-top: 20px;
+	width:400px;
+	height: auto;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.reportTable {
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.reportText {
+	resize: none;
+}
+.reportMessage {
+	font-size: 16px;
+	font-weight:600;
+	padding-top:10px;
+}
+
+/* 활동 생성 페이지 */
+.actForm {
+	width: 300px;
+	height: auto;
+	margin: auto;
+	margin-top: 50px;
+	padding-top:40px;
+	padding-bottom:30px;
+	background-color: #fff;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.actForm .table4 {
+	margin: auto;
+}
+
+.table4 .text {
+    width:200px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.table4 .reportMessage {
+	text-align: left;
+	font-size: 16px;
+	font-weight:600;
+	padding-top:10px;
+}
+.table4 .submitBtn {
+	padding-top:20px;
+	text-align:right;
+}
+.actForm .select {
+	padding:3px;
+	border-radius: 5px;
+}

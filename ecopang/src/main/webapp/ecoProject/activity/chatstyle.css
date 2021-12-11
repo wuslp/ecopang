@@ -1,0 +1,167 @@
+/* 채팅 CSS */
+ body {
+     background-color: #888;
+     
+ }
+ .all {
+     margin: auto;
+     margin-top: 50px;
+     width: 550px;
+     height: auto;
+     display: flex;
+ }
+ .chat {
+     width:350px;
+     height: 600px;
+     background-color: #fff;
+     border-radius: 20px;
+ }
+ .chatTitle {
+     text-align: center;
+     height: 50px;
+     line-height: 50px;
+     border-bottom: 1px solid #ddd;
+     background-color: rgb(208, 245, 148);
+     color: #000;
+     font-weight: 700;
+     font-size: 25px;
+     border-radius: 20px 20px 5px 5px;
+ }
+ .chatBox {
+     background-color: #fff;
+     height: 500px;
+     overflow: auto;
+ }
+ .outchat {
+    
+ }
+ .outchat .details {
+     width: auto;
+     max-width: 70%;
+     margin-left: auto;
+     margin-right: 10px;
+     margin-top: 10px;
+     display: flex;
+ }
+ .outchat .details .chatContent {
+     font-size: 15px;
+     width: auto;
+     background-color:darkseagreen;
+     word-break:break-all;
+     padding: 6px;
+     border-radius: 10px 10px 0px 10px;
+     box-shadow: 3px 3px #eee;
+ }
+ .outchat .time {
+     margin-left: auto;
+     margin-top: auto;
+     margin-right: 5px;
+     margin-bottom: 5px;
+     font-size: 10px;
+     height: auto;
+ }
+ 
+ .inchat {
+     
+ }
+ 
+ .inchat .details {
+     width: 70%;
+     margin-left: 10px;
+     margin-right: auto;
+     margin-top: 0px;
+     display: flex;
+ }
+
+ .inchat .fromid{
+     text-align: left;
+     margin-left: 15px;
+     margin-bottom: 0px;
+     margin-top: 10px;
+     font-size: 15px;
+ }
+ 
+ .inchat .time {
+     margin-left: 5px;
+     margin-top: auto;
+     margin-right: auto;
+     margin-bottom: 5px;
+     font-size: 10px;
+     height: auto;
+ }
+ 
+.inchat .details .chatContent {
+     font-size: 15px;
+     background-color:#fff;
+     border: 1px solid #f9f9f9;
+     word-break:break-all;
+     padding: 6px;
+     border-radius: 10px 10px 10px 0px;
+     box-shadow: 3px 3px #eee;
+ }
+ 
+ .chatBottom {
+     border-top: 1px solid #ddd;
+     text-align: center;
+     border-radius: 5px 5px 20px 20px;
+     background-color: #fff;
+     height: 60px;
+ }
+ 
+ .chatInput {
+     width: 200px;
+     height: 20px;
+     margin-top: 20px;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+ }
+ .chatBtn {
+     width:80px;
+     height:30px;
+     font-size: 15px;
+     font-weight: 600;
+     color: #fff;
+     background-color: rgb(52, 152, 219);
+     border: none;
+     border-radius: 6px;
+ }
+ .member {
+     width: 200px;
+     height: 600px;
+     background-color: gainsboro;
+     margin-left: 5px;
+     border-radius: 20px;
+ }
+ .memberTitle {
+     text-align: center;
+     height: 50px;
+     line-height: 50px;
+     border-bottom: 1px solid #ccc;
+     font-size: 20px;
+     font-weight: 600;
+ }
+ .memberList {
+     
+ }
+ .memberRow {
+     margin-left: 10px;
+     margin-top: 10px;
+     display: flex;
+ }
+ .memberRow .memberId {
+     
+ }
+ .memberImg img {
+     width: 25px;
+     height: 25px;
+     border-radius: 50%;
+     margin-right: 15px;
+ }
+ .memberKing img {
+     width:10px;
+     height: 10px;
+     margin-left: 10px;
+ }
+    
+
